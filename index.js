@@ -13,7 +13,7 @@ const nezhaser = process.env.NEZ_SERVER || '';
 const nezhaKey = process.env.NEZ_KEY || '';  // 哪吒密钥兼订阅密钥,订阅地址/哪吒key
 const nezport = process.env.NEZ_PORT || '443';
 const neztls = process.env.NEZ_TLS || '--tls';
-const filePath = process.env.FILE_PATH || '/tmp/';
+const filePath = process.env.FILE_PATH || '/tmp/';  //文件路径，药设置有权限的目录，默认临时目录
 const tok = process.env.TOK || '';// 隧道token,不填则使用临时隧道
 if (tok) {
     host_name = process.env.ARG_DOMAIN || '';// 隧道域名，使用固定隧道需要填，临时隧道别填
