@@ -1,26 +1,25 @@
 {
-  "name": "app",
+  "name": "nodejs-server-project",
   "version": "1.0.0",
-  "description": "A Node.js app for web service, process monitoring and subscription management.",
+  "description": "A Node.js server with custom routing and proxy functionality",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "express",
-    "http-proxy",
-    "process",
-    "monitoring",
-    "subscription",
-    "cloudflare",
-      "nezha"
+    "nodejs",
+    "server",
+    "proxy"
   ],
-  "author": "myself",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6",
-    "request": "^2.88.2",
-      "axios": "^1.6.7"
+    "axios": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
