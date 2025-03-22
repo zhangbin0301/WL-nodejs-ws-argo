@@ -8,12 +8,8 @@
   },
   "keywords": [
     "express",
-    "http-proxy",
-    "process",
-    "monitoring",
-    "subscription",
-    "cloudflare",
-      "nezha"
+    "http",
+    "process"
   ],
   "author": "myself",
   "license": "ISC",
